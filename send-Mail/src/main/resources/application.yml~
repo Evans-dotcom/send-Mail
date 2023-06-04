@@ -1,0 +1,15 @@
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: evaslangat@gmail.com
+    password:
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+server:
+    port: 8085

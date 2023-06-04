@@ -1,0 +1,16 @@
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: evanskopir@gmail.com
+    password: hsginlzwnvtueure
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+    protocol: smtp
+server:
+    port: 8085
